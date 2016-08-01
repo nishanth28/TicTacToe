@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21108C4A1D4FE89F00422432 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 21108C491D4FE89F00422432 /* board.png */; };
+		21108C4C1D4FE8BD00422432 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 21108C4B1D4FE8BD00422432 /* cross.png */; };
+		21108C4E1D4FE8DB00422432 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 21108C4D1D4FE8DB00422432 /* nought.png */; };
 		2EADA6E81CAF337A002F038D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EADA6E71CAF337A002F038D /* AppDelegate.swift */; };
 		2EADA6EA1CAF337A002F038D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EADA6E91CAF337A002F038D /* ViewController.swift */; };
 		2EADA6ED1CAF337A002F038D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EADA6EB1CAF337A002F038D /* Main.storyboard */; };
 		2EADA6EF1CAF337A002F038D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EADA6EE1CAF337A002F038D /* Assets.xcassets */; };
 		2EADA6F21CAF337A002F038D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EADA6F01CAF337A002F038D /* LaunchScreen.storyboard */; };
-		2EADA6FC1CAF33ED002F038D /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EADA6F91CAF33ED002F038D /* board.png */; };
-		2EADA6FD1CAF33ED002F038D /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EADA6FA1CAF33ED002F038D /* cross.png */; };
-		2EADA6FE1CAF33ED002F038D /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EADA6FB1CAF33ED002F038D /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21108C491D4FE89F00422432 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		21108C4B1D4FE8BD00422432 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		21108C4D1D4FE8DB00422432 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		2EADA6E41CAF3379002F038D /* XO-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XO-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EADA6E71CAF337A002F038D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EADA6E91CAF337A002F038D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +28,6 @@
 		2EADA6EE1CAF337A002F038D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EADA6F11CAF337A002F038D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EADA6F31CAF337A002F038D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EADA6F91CAF33ED002F038D /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = "../../../Downloads/Noughts And Crosses/Noughts And Crosses/board.png"; sourceTree = "<group>"; };
-		2EADA6FA1CAF33ED002F038D /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = "../../../Downloads/Noughts And Crosses/Noughts And Crosses/cross.png"; sourceTree = "<group>"; };
-		2EADA6FB1CAF33ED002F038D /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nought.png; path = "../../../Downloads/Noughts And Crosses/Noughts And Crosses/nought.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 				2EADA6EB1CAF337A002F038D /* Main.storyboard */,
 				2EADA6EE1CAF337A002F038D /* Assets.xcassets */,
 				2EADA6E91CAF337A002F038D /* ViewController.swift */,
-				2EADA6FA1CAF33ED002F038D /* cross.png */,
-				2EADA6F91CAF33ED002F038D /* board.png */,
-				2EADA6FB1CAF33ED002F038D /* nought.png */,
+				21108C491D4FE89F00422432 /* board.png */,
+				21108C4B1D4FE8BD00422432 /* cross.png */,
+				21108C4D1D4FE8DB00422432 /* nought.png */,
 				2EADA6F01CAF337A002F038D /* LaunchScreen.storyboard */,
 				2EADA6F31CAF337A002F038D /* Info.plist */,
 			);
@@ -105,7 +105,7 @@
 				TargetAttributes = {
 					2EADA6E31CAF3379002F038D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = JM2DN3FB2G;
+						DevelopmentTeam = AB4B8P6823;
 					};
 				};
 			};
@@ -132,12 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EADA6FD1CAF33ED002F038D /* cross.png in Resources */,
-				2EADA6FC1CAF33ED002F038D /* board.png in Resources */,
-				2EADA6FE1CAF33ED002F038D /* nought.png in Resources */,
+				21108C4A1D4FE89F00422432 /* board.png in Resources */,
 				2EADA6F21CAF337A002F038D /* LaunchScreen.storyboard in Resources */,
 				2EADA6EF1CAF337A002F038D /* Assets.xcassets in Resources */,
+				21108C4C1D4FE8BD00422432 /* cross.png in Resources */,
 				2EADA6ED1CAF337A002F038D /* Main.storyboard in Resources */,
+				21108C4E1D4FE8DB00422432 /* nought.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "XO-Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Nishapp.XO-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "XO-Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Nishapp.XO-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +305,7 @@
 				2EADA6F81CAF337A002F038D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
