@@ -272,7 +272,7 @@
 				INFOPLIST_FILE = "XO-Game/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nishapp.XO-Game";
+				PRODUCT_BUNDLE_IDENTIFIER = "Canfield-Wildcard-7S--com.canfield.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -285,7 +285,7 @@
 				INFOPLIST_FILE = "XO-Game/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nishapp.XO-Game";
+				PRODUCT_BUNDLE_IDENTIFIER = "Canfield-Wildcard-7S--com.canfield.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
